@@ -10,8 +10,8 @@ const App = () => {
   return (
     <div className="app__wrapper">
           <Chat client={client} theme ="team light">
+             
                   <ChannelListContainer
-                  
                   />
                   
                   <ChannelContainer
@@ -25,4 +25,4 @@ const App = () => {
   );
 }
 
-export default App
+export default App;
