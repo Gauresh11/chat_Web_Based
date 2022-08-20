@@ -36,9 +36,9 @@ const UserItem = ({ user, setSelectedUsers }) => {
             </div>
             {selected ? <InviteIcon /> : <div className="user-item__invite-empty" />}
         </div>
-    )  
+    )     
 }    
-
+ 
 
 const UserList = ({ setSelectedUsers }) => {
     const { client } = useChatContext();
