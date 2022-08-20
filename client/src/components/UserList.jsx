@@ -37,7 +37,7 @@ const UserItem = ({ user, setSelectedUsers }) => {
             {selected ? <InviteIcon /> : <div className="user-item__invite-empty" />}
         </div>
     )
-}
+}   
 
 
 const UserList = ({ setSelectedUsers }) => {
