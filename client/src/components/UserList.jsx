@@ -10,7 +10,7 @@ const ListContainer = ({ children }) => {
                 <p>User</p>
                 <p>Invite</p>
             </div>
-            {children}
+            {children}         
                    
         </div>
     )
