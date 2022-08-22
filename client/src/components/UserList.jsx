@@ -11,6 +11,7 @@ const ListContainer = ({ children }) => {
                 <p>Invite</p>
             </div>
             {children}
+                
         </div>
     )
 }
