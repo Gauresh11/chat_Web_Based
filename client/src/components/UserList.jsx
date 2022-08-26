@@ -19,7 +19,7 @@ const ListContainer = ({ children }) => {
 const UserItem = ({ user, setSelectedUsers }) => {
     const [selected, setSelected] = useState(false)
 
-    const han dleSelect = () => {
+    const handleSelect = () => {
         if(selected) {
            setSelectedUsers((prevUsers) => prevUsers.filter((prevUser) => prevUser !== user.id))
         } else {
