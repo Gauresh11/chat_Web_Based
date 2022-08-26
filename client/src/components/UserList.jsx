@@ -14,7 +14,7 @@ const ListContainer = ({ children }) => {
                              
         </div>
     )
-}
+}  
  
 const UserItem = ({ user, setSelectedUsers }) => {
     const [selected, setSelected] = useState(false)
