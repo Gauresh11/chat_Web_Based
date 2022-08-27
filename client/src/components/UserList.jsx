@@ -13,7 +13,7 @@ const ListContainer = ({ children }) => {
             {children}         
                              
         </div>
-    )
+    ) 
 }   
  
 const UserItem = ({ user, setSelectedUsers }) => {
