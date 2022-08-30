@@ -48,7 +48,7 @@ const Auth = () => {
 
         window.location.reload();
     } 
-
+ 
     const switchMode = () => {
         setIsSignup((prevIsSignup) => !prevIsSignup);
     }
