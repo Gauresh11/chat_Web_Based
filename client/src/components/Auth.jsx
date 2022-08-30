@@ -59,7 +59,7 @@ const Auth = () => {
                 <div className="auth__form-container_fields-content">
                     <p>{isSignup ? 'Sign Up' : 'Sign In'}</p>
                     <form onSubmit={handleSubmit}>
-                        {isSignup && (
+                        {isSignup && ( 
                             <div className="auth__form-container_fields-content_input">
                                 <label htmlFor="fullName">Full Name</label>
                                 <input 
